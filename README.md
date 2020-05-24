@@ -29,8 +29,8 @@ Instructions:
 - For a new entry user have to login.
 - To Activate New User account : 
   - sign in as the administrator of the BillPay , enter the following details:
-    Username: admin
-    Password: admin123
+    -Username: admin
+    -Password: admin123
 - Then the administrator can manage new entries.
 
 
