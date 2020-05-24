@@ -1,0 +1,145 @@
+body {
+	background-image:  url(../images/bkg.png);
+	background-size: cover;
+	font-family:   sans-serif;
+
+	margin: 10px;
+	padding: 20px;
+}
+h1
+{ margin:0;
+ padding:24px 0 40px 40px;
+  color:#000;
+   font:bold 40px/1.2em Arial, Helvetica, sans-serif;
+   text-transform:  uppercase;}
+h1 a, h1 a:hover {
+ color:#0077ff;
+  text-decoration: none;}
+.cardinfo{
+
+border-radius: 70px;
+padding: 30px;
+}
+
+h1 span { margin:0 4px; padding:26px 6px; color:#fff; background-color:#;}
+h1 small { padding-left:8px; font:normal 13px/1.2em Arial, Helvetica, sans-serif;}
+h2 { font: bold 24px sans-serif;
+ color: #fff;
+  padding:8px 0;
+   margin:8px 0;
+   }
+p { margin:8px 0;
+    padding:0 0 8px 0;
+    font:normal 12px/1.8em sans-serif;
+    }
+a { color:#0077ff;
+    text-decoration: underline;
+    }
+
+
+
+
+
+
+/* form */
+ol { list-style:none;}
+ol li { display:block; clear:both;}
+ol li label { display: block; margin:0; padding:16px 0 0 0; color: white;}
+ol li label option { display: block; border: 2px solid DodgerBlue; margin:0; padding:16px 0 0 0; color: white;}
+ol li input.text { width:480px; border: 2px solid DodgerBlue; margin:2px 0; padding:5px 2px; height:16px; background:#fff;}
+ol li textarea { width:480px; border: 2px solid DodgerBlue;   margin:2px 0; padding:2px; background:#fff;}
+ol li .send { margin:16px 0 0 0;}
+
+
+  input[type="text"]{
+    display: inline-block;
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 10px 10px 100px;
+    transition: all 0.1s ease-out;
+  }
+
+  input[type="text"] + label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 3px 0 0 3px;
+    padding: 0 20px;
+    background: #E03616;
+    transform: translateZ(0) translateX(0);
+    transition: all 0.3s ease-in;
+    transition-delay: 0.2s;
+  }
+
+  input[type="text"]:focus + label{
+    transform: translateY(-120%) translateX(0%);
+    border-radius: 3px;
+    transition: all 0.1s ease-out;
+  }
+
+  input[type="text"]:focus{
+    padding: 10px;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.2s;
+  }
+}
+
+.button{
+background-color: #fff; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .7s;
+  cursor: pointer;
+
+  }
+.prcdbtn{
+ background-color: white ; /* Green */
+  border: 2px solid #4CAF50 ;
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  border-radius: 32px;
+}
+
+
+.prcdbtn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.cancelbtn{
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+   padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  border-radius: 32px;
+}
+
+.cancelbtn:hover {
+  background-color: #f44336;
+  color: white;
+}
