@@ -1,0 +1,639 @@
+#background{
+    background-color: #439cef;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {font-family: sans-serif;}
+form {border: 3px solid #38adca;}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(190, 178, 178);
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(1, 32, 58);
+  color: white;
+  padding: 14px 20px;
+  margin: 25px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  transition: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+button:hover {
+  background-color: rgb(1, 32, 58);
+  opacity: 0.8;
+  color: whitesmoke;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 22px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+  * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 50%;
+  }
+}
+}
+header{
+    padding: 10px ;
+    box-sizing: border-box;
+}
+header img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+nav{
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    background: rgb(0,0,0,0.8);
+    border-top: 1px solid rgba(55, 182, 255, 0.2);
+    border-bottom: 1px solid rgba(55, 182, 255, 0.2);
+    position: sticky;
+    top: 50px;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    color: #f2f2f2;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    background: #2788e4;
+}
+section{
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+.about{
+  padding: 50px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: 22px;
+  background-color:#439cef;
+  border-radius: 25px;
+}
+.about h1{
+  font-family: sans-serif;
+  color: black;
+}
+.about p{
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+
+.about h1{
+  font-family: sans-serif;
+  color: black;
+}
+.about p{
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.hero-image{
+padding: 50px;
+  box-sizing: border-box;
+  height: 700px;
+  margin: 22px;
+  background-color:#f2f2f2;
+  box-shadow: 2px 3px 4px blue;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: absolute;
+
+}
+.coin{
+padding: 20px;
+  box-sizing: border-box;
+  height: 400px;
+  margin: 22px;
+  background-color:#f2f2f2;
+  box-shadow: 2px 3px 4px #fffc00;
+  background-image: url(../images/coin.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: absolute;
+
+}
+.hero-image a{
+position: center;
+
+
+
+}
+ .sec1{
+  padding: 50px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: 22px;
+  background-color:#f2f2f2;
+  box-shadow: 2px 3px 4px blue;
+  width: 97%;
+
+}
+.sec1 h1{
+  font-family: sans-serif;
+  color: black;
+}
+.sec1 p{
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.container1{
+  padding: 50px;
+  box-sizing: border-box;
+  height: 340px;
+  margin: 122px;
+  color: white;
+  background-image: linear-gradient( 110.9deg,  rgba(44,221,239,1) 1.1%, rgba(14,191,210,1) 37.6%, rgba(8,127,140,1) 99.2% );
+  border-radius: 25px;
+  box-shadow: 2px 3px 7px #00416A;
+}
+/* Counter small screens */
+
+.col-md-4 {
+  text-align: center;
+  padding-bottom: 50px;
+  border-right: 1px dashed white;
+}
+
+.col-md-4:last-child {
+  border-right: 0px solid white;
+}
+
+.counter {
+
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
+i {
+  font-size: 20px !Important;
+}
+
+@media (max-width: 991px) {
+  .col-md-4 {
+    border-right: 0px dashed white;
+    border-bottom: 1px dashed white;
+    width: 50%;
+    margin: auto auto;
+  }
+
+  .col-md-4:last-child {
+    border-bottom: 0px dashed white;
+  }
+}
+
+.ad{
+  margin: 22px;
+  background-color:#439cef;
+  border-radius: 25px;
+
+
+}
+.ad img{
+
+  border-radius: 40px;
+  margin: 0;
+  padding:0;
+  height: 450px;
+  width: 400px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+.ad h1{
+
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  padding: 125px ;
+  margin: 10px 45px;
+  display: inline-block;
+  color: black;
+
+}
+
+.ad p{
+    font-size: 43px;
+    text-align: bottom;
+
+    color: black  ;
+    padding: 10px;
+    margin: 10px 2px  40px;
+    display: inline-block;
+
+
+}
+.login{
+
+  margin: 10px 400px 122px;
+  background-color: rgba(0,0,0,0.4);
+  display: inline-block;
+  position: center;
+  height: 600px;
+  width: 390px;
+  border-radius: 50px;
+}
+.contactus{
+
+  margin:  10px 400px 12px;
+  background-color: rgba(0,0,0,0.4);
+  display: inline-block;
+  position: right;
+  height: 550px;
+  width: 700px;
+  border-radius: 50px;
+
+}
+.contactus form{
+padding: -132px;
+}
+.signup{
+
+  margin: 10px 400px 122px;
+  background-color: rgba(0,0,0,0.4);
+  display: inline-block;
+  position: center;
+  height: 780px;
+  width:490px;
+  border-radius: 50px;
+}
+.counter1 {
+  display: table-cell;
+  margin:1.5%;
+  font-size:50px;
+  background-color: #FF6F6F;
+  width:200px;
+  border-radius: 50%;
+  height:200px;
+  vertical-align: middle;
+}
+.mobile {
+
+  margin: 10px 40px 122px;
+  background-color: orange;
+  display: inline-block;
+  color: white;
+  font-size: 32px;
+  position: center;
+  height: 470px;
+  width: 90%;
+  position: right;
+  padding:10px 20px 30px;
+  box-shadow: 3px 2px 4px yellow;
+
+}
+
+.mobile img{
+height: 400px;
+width: auto;
+display: inline-block;
+
+}
+.mobile p{
+    font-size: 32px;
+    text-align: bottom;
+    color: black;
+    padding: 10px;
+    margin: 10px 2px  40px;
+    display: inline-block;
+
+}
+
+
+section .sec1 h1{
+ padding: 0 100px;
+ margin: 0;
+ background-color: #fff;
+ font-size: 3em;
+}
+section .sec1 p{
+  padding: 0 100px;
+  margin: 0;
+  font-size: 22px;
+ }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+  .contact-menu h2{
+    padding: 16px;
+    text-transform: uppercase;
+
+  }
+
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #ff0000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #0a35c4;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.contents {
+	display: inline-block;
+	width: 865px;
+	padding: 0 47px;
+}
+.footer{
+
+    background-color: #141414;
+    color:#fefefe;
+    position: relative;
+    height:300px;          /* Footer height */
+
+    }
+    .footer .footer-content {
+    border: 1px solid rgb(0, 235, 90);
+    height: 260px;
+    display: flex;
+    }
+      .footer .footer-content .footer-section {
+    border: 1px solid rgb(0, 235, 90);
+    height: 260px;
+    display: flex;
+    }
+
+    .footer .footer-content .footer-section{
+    flex:1;
+    padding: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    }
+    .footer .footer-content .links ul a{
+    color: #f2f2f2;
+    padding: 2px;
+    display:block;
+    margin: 2px;
+    font-size: 15px;
+    transition: all .3s;
+
+    }
+    .footer .footer-content .links ul a:hover{
+    color: white;
+    margin: 0px;
+    transition: all .3s;
+
+    }
+    .footer .footer-content .links2 ul a{
+      color: #f2f2f2;
+      padding: 0px;
+      display: block;
+      margin: 2px;
+      font-size: 15px;
+      transition: all .3s;
+
+      }
+      .footer .footer-content .links2 ul a:hover{
+        color: white;
+        margin: 15px;
+        transition: all .3s;
+
+        }
+         .footer .footer-content .links2 .map{
+      width: relative;
+      height: 140px;
+
+        }
+    .footer .footer-bottom{
+    background-color: #343a40;
+    color: #686868;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    }
+
